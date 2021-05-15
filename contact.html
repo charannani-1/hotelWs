@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <!--fontasome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;×
+Animated Sidenav Example
+Click on the element below to open the side navigation menu.
+
+☰ Menu
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+    .container{
+
+padding: 5px;
+line-height: 1rem;
+}
+.ham{
+border-radius: 25px;
+}
+.fas{
+color: goldenrod;
+}
+
+.cha
+{
+position: absolute;
+left: 60%;
+top: 13%;
+}
+
+.var input{
+width: 40%;
+height: 45px;
+
+}
+.button{
+border: solid 2px black;
+width: 7% ;
+height: 35px;
+border-radius: 25px;
+}
+.cha h3{
+font-size: 35px;
+
+}
+.cha p{
+font-size: 20px; 
+}
+.container h1{
+text-decoration: 3.5px underline goldenrod;
+
+}
+body{
+
+background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+background-size:cover ;
+margin: 0;
+padding: 0;
+}
+
+footer {
+        bottom: 0px;
+        height: 250px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: Verdana, sans-serif;
+        padding-top: 15px;
+        padding-left: 20px;
+      }
+
+      .table-footer {
+        height: 100px;
+        color: white;
+        float: right;
+        width: 80%;
+      }
+
+      .table-footer th {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 2px 2px black;
+      }
+
+      .table-footer td {
+        padding: 10px;
+        text-align: left;
+      }
+
+     
+
+      .sub-footer {
+        height: 200px;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+      }
+
+      td a:hover {
+        text-decoration: underline;
+        border-radius: 5px;
+        transition: 0.42s;
+        font-size: 22px;
+      }
+
+      footer center {
+        text-shadow: 1px 1px black;
+      }
+
+
+</style>
+  </head>
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="romms.html">Rooms</a>
+   
+      <a href="contact.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <div class="container">  
+        <form class="form1" action="" method="post">
+          <center><h1>  Contact Us  </h1></center>
+          
+          <div class="var">
+            <input class="ham" placeholder="Your name" type="text" tabindex="1" required autofocus style="height: 45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham" placeholder="Your Email Address" type="email" tabindex="2" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham"  placeholder="Your Phone Number " type="tel" tabindex="3" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+            
+              <input class="ham"  placeholder="Your email " type="url" tabindex="4" required style="height: 45px;">
+            <br>
+            <br>
+            <br>
+            
+              <textarea class="ham"  placeholder="Type your message here...." tabindex="5" required style="height:120px; width: 35%;"></textarea>
+            <br>
+            <br>
+            <br>
+          </div>
+
+   
+          
+            <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <br>
+            <br>
+              
+        </form>
+      </div>
+  <div class="cha">
+    <h3> <u>Address</u>  </h3> 
+    <p> <i class="fas fa-map-marker-alt"></i> LB nagar,Hyderbad,India,500074</p> 
+     
+    <h3> <u>Phone numbers</u>  </h3> 
+    <p> <i class="fas fa-phone-alt"></i> 040-435678, 040-4355679</p> 
+
+    <h3> <u>Email</u>  </h3> 
+    <p> <i class="fas fa-envelope"></i> hotelws@gmail.com</p> 
+
+    <h3> <u>Booking hours</u>  </h3> 
+    <p> <i class="fas fa-clock"></i> 9:00 am to 6:00pm</p> 
+  </div>
+     
+  <div class="col-lg-6 col-md-6 col-sm-12" id="contact-map">
+    <a target="_blank"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1A5XCtDMGY-uNKytUCDHn4Z77v8s&ie=UTF8&hl=en&msa=0&ll=17.442955801943825%2C78.50371991320311&spn=0.027185%2C0.066862&z=15&output=embed" alt="map" id="map" width="600px" height="430px"frameborder="0" aria-hidden="false" tabindex="0"></iframe></a>
+</div>       
+      
+<footer>
+  <center>IMPERIAL HOTEL &copy; 2021</center>
+  <div id="CONTACT"></div>
+ 
+    <table class="table-footer">
+      <tr>
+        <th>About us</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td><a href="romms.html">ROOMS</a></td>
+        
+        <td>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Creative-Decors-112704957174736"
+          >
+            <img src="fblogo.jpg" height="20vw" ;width="20vw" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="">Blogs</a></td>
+       
+        <td>
+          <a
+            target="_blank"
+            href="" >
+            <img
+              src="data:image/png;base64,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"
+              height="20vw"
+              ;width="20vw"
+            />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="about.html">Team</a></td>
+       
+        <td>
+          <a target="_blank" href="">
+            <img src="instalogo.jpg" height="20vw" ;width="35vw" />
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+</footer>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+</body>
+</html>
